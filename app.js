@@ -12,9 +12,14 @@ const confirmm = () =>{
     const isconfirm =  confirm('this is confirm detels')
      console.log(isconfirm);
      if(isconfirm === true){
-        console.log( 'yes is true');
+        alert( 'yes is true');
      }
      else{
-        console.log('no is not');
+        alert('no is not');
      }
+}
+
+const isproft = () =>{
+    const promt = prompt('yes fill up')
+    console.log(promt);
 }
